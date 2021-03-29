@@ -1,7 +1,14 @@
+
 .login{
     margin-left: 2em;
     color: black;
     text-decoration: none;
+}
+.join2{
+    border-width: thin;
+    margin-left: 2em;
+    border-top:solid red;
+    border-bottom:solid red; 
 }
 p{
     font-weight: bold;
@@ -10,10 +17,12 @@ p{
     margin: 0;
 }
 hr{
+    margin-top: 1em;
     margin-bottom: 2em;
 }
-h4{
-    padding-left: 2em;
+h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 1.3em;
 }
 .text-login{
     color: black;
@@ -47,4 +56,24 @@ h4{
     padding-right: 2em;
     background-color:red;
     border:3px solid black;
+}
+.buttons2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2em;
+}
+.green{
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color:greenyellow;
+    border:3px solid black;
+}
+.blue{
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color:lightblue;
+    border:3px solid black;
+}
+.end{
+    margin-top: .2em;
 }
