@@ -1,0 +1,50 @@
+.login{
+    margin-left: 2em;
+    color: black;
+    text-decoration: none;
+}
+p{
+    font-weight: bold;
+    color: black;
+    padding-left: 2em;
+    margin: 0;
+}
+hr{
+    margin-bottom: 2em;
+}
+h4{
+    padding-left: 2em;
+}
+.text-login{
+    color: black;
+    text-decoration: none;
+}
+.join{
+    margin-left: .5em;
+    border-width: thin;
+    border-top:solid red;
+    border-bottom:solid red;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    
+}
+.buttons{
+    margin-top: 0;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: row;
+}
+.signup{
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color:greenyellow;
+    border:3px solid black;
+}
+.cancel{
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color:red;
+    border:3px solid black;
+}
